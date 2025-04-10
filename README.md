@@ -1,7 +1,7 @@
 # Excel Record Automation using Python Scripts
 
 ## 📌 Project Overview
-This project automates the process of linking employee-specific `.docx` files to their corresponding records in an Excel sheet. By matching **GPN (Global Personal Number)** and **Name** fields, the script dynamically generates hyperlinks that directly point to the correct documents located in a designated directory.
+This project automates the process of linking employee-specific `.docx` files to their corresponding records in an Excel sheet. By matching **Unique Number** and **Name** fields, the script dynamically generates hyperlinks that directly point to the correct documents located in a designated directory.
 
 The tool is designed to minimize manual work, enhance data accessibility, and ensure document consistency — ideal for HR teams, operations departments, or any environment dealing with large-scale employee documentation.
 
@@ -9,7 +9,7 @@ The tool is designed to minimize manual work, enhance data accessibility, and en
 
 ## 🛠️ What the Script Does
 - Reads data from an existing Excel file containing employee records.
-- Fetches corresponding `.docx` documents from a specified folder using GPN and Name as identifiers.
+- Fetches corresponding `.docx` documents from a specified folder using Unique Number and Name as identifiers.
 - Creates Excel hyperlinks in the relevant row under the “Link” column.
 - Saves an updated Excel file with clickable links to each employee's document.
 
